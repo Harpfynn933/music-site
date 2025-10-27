@@ -21,6 +21,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     gap: 25px;
+    padding: 10px;
 }
 
 #hero {
@@ -70,6 +71,7 @@ img {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    
 }
 
 iframe {
