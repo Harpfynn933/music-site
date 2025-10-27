@@ -1,0 +1,89 @@
+body {
+    background-color: #74748C;
+}
+
+a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #BE8D77;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+#hero {
+    background-image: url(joe-hisaishi-_-2021-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.containerheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+img {
+    width: 440px;
+    height: 440px;
+}
+
+.watchheader {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+}
