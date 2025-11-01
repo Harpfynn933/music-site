@@ -79,7 +79,7 @@ iframe {
     width: 100%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     img {
         width: 220px;
         height: 220px
