@@ -1,5 +1,5 @@
 body {
-    background-color: #74748C;
+    background-color: #EFF1F3;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 }
 
 a:visited {
-    color: #ffffff;
+    color: #223843;
 }
 
 a:hover {
@@ -57,7 +57,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
 }
@@ -65,6 +65,7 @@ nav {
 img {
     width: 440px;
     height: 440px;
+    border-radius: 10px;
 }
 
 .watchheader {
